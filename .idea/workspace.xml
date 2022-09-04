@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyan/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MyBatisDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="MyBatis代理模式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,8 +45,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IDEAProjects\MyBatis-demo\src\main\resources" />
       <recent name="F:\IDEAProjects\MyBatis-demo\src\main\resources\com\cyan\mapper" />
+      <recent name="F:\IDEAProjects\MyBatis-demo\src\main\resources" />
+      <recent name="F:\IDEAProjects\MyBatis-demo\src\main\java\com\cyan\mapper" />
+      <recent name="F:\IDEAProjects\MyBatis-demo\src\test\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -69,7 +57,7 @@
       <recent name="com.cyan.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyBatisDemo">
+  <component name="RunManager" selected="Application.MyBatisDemo2">
     <configuration name="MyBatisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyBatisDemo" />
       <module name="MyBatis-demo" />
@@ -98,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyBatisDemo" />
         <item itemvalue="Application.MyBatisDemo2" />
+        <item itemvalue="Application.MyBatisDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -113,8 +101,30 @@
       <updated>1662264690123</updated>
       <workItem from="1662264691554" duration="1165000" />
       <workItem from="1662276288844" duration="6211000" />
-      <workItem from="1662285112904" duration="1349000" />
+      <workItem from="1662285112904" duration="1706000" />
     </task>
+    <task id="LOCAL-00001" summary="MyBatis入门">
+      <created>1662287823645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662287823645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MyBatis入门">
+      <created>1662287847056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662287847056</updated>
+    </task>
+    <task id="LOCAL-00003" summary="MyBatis代理模式">
+      <created>1662288081320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662288081320</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,5 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MyBatis入门" />
+    <MESSAGE value="MyBatis代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyBatis代理模式" />
   </component>
 </project>
