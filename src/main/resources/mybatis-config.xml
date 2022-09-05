@@ -3,6 +3,15 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+    <!--    包扫描，指定一个包名，MyBatis 会在包名下面搜索需要的 Java Bean,例如 mapper 中的 resultType ，
+    并且不区分大小写 ，详见 MyBatis 官网  -->
+    <typeAliases>
+        <package name="com.cyan.pojo"/>
+    </typeAliases>
+
+    <!--    environments配置数据库连接信息，适应不同环境，如开发环境，测试环境，生产环境   -->
+    <!--    通过default更换环境   -->
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
