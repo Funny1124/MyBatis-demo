@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="MyBatis代理模式">
+    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="配置 包扫描 查找 java bean">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyan/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cyan/test/MyBatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -49,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IDEAProjects\MyBatis-demo\src\main\java\com\cyan\pojo" />
       <recent name="F:\IDEAProjects\MyBatis-demo\src\main\resources\com\cyan\mapper" />
       <recent name="F:\IDEAProjects\MyBatis-demo\src\main\resources" />
       <recent name="F:\IDEAProjects\MyBatis-demo\src\main\java\com\cyan\mapper" />
@@ -106,7 +108,7 @@
       <workItem from="1662264691554" duration="1165000" />
       <workItem from="1662276288844" duration="6211000" />
       <workItem from="1662285112904" duration="3255000" />
-      <workItem from="1662375219887" duration="803000" />
+      <workItem from="1662375219887" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis入门">
       <created>1662287823645</created>
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662288116997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="配置 包扫描 查找 java bean">
+      <created>1662376409105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662376409105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MyBatis入门" />
     <MESSAGE value="MyBatis代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyBatis代理模式" />
+    <MESSAGE value="配置 包扫描 查找 java bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置 包扫描 查找 java bean" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
