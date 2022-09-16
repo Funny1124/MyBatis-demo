@@ -16,8 +16,33 @@
         <result column="company_name" property="companyName"/>
     </resultMap>
 
-    <select id="selectAll" resultMap="brandResultMap" >
+    <select id="selectAll" resultMap="brandResultMap">
         select *
         from tb_brand;
     </select>
+
+    <!--
+    参数占位符：
+        1. #{} sql语句中替换为？  select * from tb_brand where id = ？; 防SQL注入。
+        2. ${} 拼接sql ，存在sql注入问题。
+        3. 使用时机：
+            参数传递：#{}
+            列名表名不确定：${}
+    特殊字符处理：
+        1. 转义： 如 < 换为 &lt;
+        2. CDATA: CDATA区内会当纯文本处理，不会与xml冲突
+                select *
+            from tb_brand
+            where id
+            <![CDATA[
+            <
+            ]]> #{id};
+    -->
+    <select id="selectById" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        where id = #{id};
+    </select>
+
+
 </mapper>

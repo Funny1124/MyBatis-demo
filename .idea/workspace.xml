@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="配置环境，安装MybatisX插件">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cyan/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5227242-cb43-45a1-8589-4cf88f2dbc9a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5227242-cb43-45a1-8589-4cf88f2dbc9a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cyan/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cyan/test/MyBatisTest.java" afterDir="false" />
+    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment=" select brand By id">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +30,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IDEAProjects\MyBatis-demo\src\main\java\com\cyan\pojo" />
@@ -67,7 +62,7 @@
       <recent name="com.cyan.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectAll">
+  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectById">
     <configuration name="MyBatisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyBatisDemo" />
       <module name="MyBatis-demo" />
@@ -81,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyBatisDemo2" />
+    <configuration name="MyBatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <module name="MyBatis-demo" />
       <extension name="coverage">
         <pattern>
@@ -90,6 +85,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testSelectAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
+      <option name="METHOD_NAME" value="testSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,10 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyBatisTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.testSelectById" />
+        <item itemvalue="JUnit.MyBatisTest.testSelectAll (1)" />
         <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
-        <item itemvalue="Application.MyBatisDemo2" />
+        <item itemvalue="Application.MyBatisTest" />
         <item itemvalue="Application.MyBatisDemo" />
       </list>
     </recent_temporary>
@@ -129,7 +146,12 @@
       <workItem from="1662264691554" duration="1165000" />
       <workItem from="1662276288844" duration="6211000" />
       <workItem from="1662285112904" duration="3255000" />
-      <workItem from="1662375219887" duration="4153000" />
+      <workItem from="1662375219887" duration="4714000" />
+      <workItem from="1662380010225" duration="1986000" />
+      <workItem from="1662467756179" duration="10000" />
+      <workItem from="1662710761515" duration="1241000" />
+      <workItem from="1662712454357" duration="40000" />
+      <workItem from="1663342440626" duration="1782000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis入门">
       <created>1662287823645</created>
@@ -173,7 +195,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662377599563</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="查询brand所有&amp;&amp;结果映射">
+      <created>1662379433560</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662379433560</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" select brand By id">
+      <created>1663343565129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663343565129</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" select brand By id">
+      <created>1663343826223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663343826223</updated>
+    </task>
+    <task id="LOCAL-00010" summary=" select brand By id">
+      <created>1663343986403</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663343986403</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +251,9 @@
     <MESSAGE value="MyBatis代理模式" />
     <MESSAGE value="配置 包扫描 查找 java bean" />
     <MESSAGE value="配置环境，安装MybatisX插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置环境，安装MybatisX插件" />
+    <MESSAGE value="查询brand所有&amp;&amp;结果映射" />
+    <MESSAGE value=" select brand By id" />
+    <option name="LAST_COMMIT_MESSAGE" value=" select brand By id" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
