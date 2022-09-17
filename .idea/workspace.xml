@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="动态修改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="delete by id">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cyan/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyan/mapper/BrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <recent name="com.cyan.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testDeleteById">
+  <component name="RunManager" selected="JUnit.MyBatisTest.testDeleteByIds">
     <configuration name="MyBatisTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis-demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,11 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.testSelectByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisTest.testDeleteByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis-demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
-      <option name="METHOD_NAME" value="testSelectByCondition" />
+      <option name="METHOD_NAME" value="testDeleteByIds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.testDeleteByIds" />
         <item itemvalue="JUnit.MyBatisTest.testDeleteById" />
         <item itemvalue="JUnit.MyBatisTest.testUpdate" />
         <item itemvalue="JUnit.MyBatisTest.testAdd" />
         <item itemvalue="JUnit.MyBatisTest.testSelectByConditionSingle" />
-        <item itemvalue="JUnit.MyBatisTest.testSelectByCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +142,7 @@
       <workItem from="1662712454357" duration="40000" />
       <workItem from="1663342440626" duration="2234000" />
       <workItem from="1663393869931" duration="5058000" />
-      <workItem from="1663422140088" duration="5561000" />
+      <workItem from="1663422140088" duration="5932000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis入门">
       <created>1662287823645</created>
@@ -300,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663429523495</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="delete by id">
+      <created>1663430408451</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663430408451</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +341,8 @@
     <MESSAGE value="添加（无返回）" />
     <MESSAGE value="添加（返回添加数据的主键id）" />
     <MESSAGE value="动态修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态修改" />
+    <MESSAGE value="delete by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete by id" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
