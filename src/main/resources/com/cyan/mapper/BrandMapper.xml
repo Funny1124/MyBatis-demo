@@ -45,16 +45,16 @@
     </select>
 
 
-<!--        &lt;!&ndash;-->
-<!--            条件查询-->
-<!--        &ndash;&gt;-->
-<!--        <select id="selectByCondition" resultMap="brandResultMap">-->
-<!--            select *-->
-<!--            from tb_brand-->
-<!--            where status = #{status}-->
-<!--              and company_name like #{companyName}-->
-<!--              and brand_name like #{brandName}-->
-<!--        </select>-->
+    <!--        &lt;!&ndash;-->
+    <!--            条件查询-->
+    <!--        &ndash;&gt;-->
+    <!--        <select id="selectByCondition" resultMap="brandResultMap">-->
+    <!--            select *-->
+    <!--            from tb_brand-->
+    <!--            where status = #{status}-->
+    <!--              and company_name like #{companyName}-->
+    <!--              and brand_name like #{brandName}-->
+    <!--        </select>-->
 
     <!--
     动态条件查询
@@ -74,5 +74,25 @@
             </if>
         </where>
 
+    </select>
+    <select id="selectByConditionSingle" resultMap="brandResultMap">
+        select *
+        from tb_brand
+        <where>
+            <choose> <!--相当于Switch-->
+                <when test="status != null"><!--相当于Switch的case-->
+                    status = #{status}
+                </when>
+                <when test="companyName != null and companyName != ''">
+                    company_name like #{companyName}
+                </when>
+                <when test="brandName != null and brandName != ''">
+                    brand_name like #{brandName}
+                </when>
+                <!--            <otherwise>&lt;!&ndash;相当于Switch的default 有where标签则不需要&ndash;&gt;-->
+                <!--                1=1-->
+                <!--            </otherwise>-->
+            </choose>
+        </where>
     </select>
 </mapper>

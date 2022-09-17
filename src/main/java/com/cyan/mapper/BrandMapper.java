@@ -32,4 +32,11 @@ public interface BrandMapper {
 //    将多个参数封装到map集合中，将map集合作为接口的方法参数。该方式要求在映射配置文件的SQL中使用 #{内容}
 //    时，里面的内容必须和map集合中键的名称一致。
     List<Brand> selectByCondition(Map map);
+
+    /**
+     * 单条件动态查询
+     * @param brand Brand对象
+     * @return List<Brand>
+     */
+    List<Brand> selectByConditionSingle(Brand brand);
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="条件查询（模糊查询）">
+    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="条件查询（解决空参）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cyan/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cyan/mapper/BrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" afterDir="false" />
     </list>
@@ -64,20 +65,7 @@
       <recent name="com.cyan.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectByCondition">
-    <configuration name="MyBatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
-      <module name="MyBatis-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectByConditionSingle">
     <configuration name="MyBatisTest.testSelectAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis-demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,6 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyBatisTest.testSelectByConditionSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
+      <option name="METHOD_NAME" value="testSelectByConditionSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBatisTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatis-demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTest.testSelectByConditionSingle" />
         <item itemvalue="JUnit.MyBatisTest.testSelectByCondition" />
         <item itemvalue="JUnit.MyBatisTest.testSelectById" />
         <item itemvalue="JUnit.MyBatisTest.testSelectAll (1)" />
         <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
-        <item itemvalue="Application.MyBatisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +150,7 @@
       <workItem from="1662712454357" duration="40000" />
       <workItem from="1663342440626" duration="2234000" />
       <workItem from="1663393869931" duration="5058000" />
-      <workItem from="1663422140088" duration="695000" />
+      <workItem from="1663422140088" duration="2046000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis入门">
       <created>1662287823645</created>
@@ -252,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663397966872</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="条件查询（解决空参）">
+      <created>1663423138355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663423138355</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +288,8 @@
     <MESSAGE value="查询brand所有&amp;&amp;结果映射" />
     <MESSAGE value=" select brand By id" />
     <MESSAGE value="条件查询（模糊查询）" />
-    <option name="LAST_COMMIT_MESSAGE" value="条件查询（模糊查询）" />
+    <MESSAGE value="条件查询（解决空参）" />
+    <option name="LAST_COMMIT_MESSAGE" value="条件查询（解决空参）" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
