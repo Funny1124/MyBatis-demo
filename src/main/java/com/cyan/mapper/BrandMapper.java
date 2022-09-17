@@ -46,8 +46,13 @@ public interface BrandMapper {
     void add(Brand brand);
 
 
-    /*** 修改
+    /** 修改
      * @return int
      * */
     int update(Brand brand);
+
+    /**
+     *根据id删除
+     */
+    void deleteById(int id);
 }
