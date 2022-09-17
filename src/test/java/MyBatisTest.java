@@ -55,7 +55,7 @@ public class MyBatisTest {
         sqlSession.close();
     }
 
-//    若查询结果为空集，
+    //    若查询结果为空集，
 //    检查sql是否拼接错误，
 //    可能数据库连接的字符编码有误，连接信息添加：useUnicode=true&amp;characterEncoding=UTF-8
     @Test
@@ -91,10 +91,10 @@ public class MyBatisTest {
 //        List<Brand> brands = brandMapper.selectByCondition(brand);
 
         //方式三 ：接口方法参数是 map集合对象 方式调用的方法
-        Map<String, java.io.Serializable> map = new HashMap<String, java.io.Serializable>();
-        map.put("status" , status);
+        Map<String, java.io.Serializable> map = new HashMap<>();
+        map.put("status", status);
         map.put("companyName", companyName);
-        map.put("brandName" , brandName);
+        map.put("brandName", brandName);
         List<Brand> brands = brandMapper.selectByCondition(map);
 
         System.out.println(brands);
@@ -135,6 +135,43 @@ public class MyBatisTest {
 
         System.out.println(brands);
 
+        //5. 释放资源
+        sqlSession.close();
+    }
+
+    @Test
+    public void testAdd() throws IOException {
+        //接收参数
+        int status = 1;
+        String companyName = "波导责任有限公司";
+        String brandName = "波导手机";
+        String description = "波导手机，手机中的战斗机！";
+        int ordered = 300;
+
+        //1. 获取SqlSessionFactory
+        String resource = "mybatis-config.xml";
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        //2. 获取SqlSession对象
+//        SqlSession sqlSession = sqlSessionFactory.openSession();
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);//自动提交事务
+        //3. 获取Mapper接口的代理对象
+        BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+
+
+        //封装对象
+        Brand brand = new Brand();
+        brand.setStatus(status);
+        brand.setCompanyName(companyName);
+        brand.setBrandName(brandName);
+        brand.setDescription(description);
+        brand.setOrdered(ordered);
+        //4. 执行方法
+        //接口方法参数是 实体类对象 方式调用的方法
+        brandMapper.add(brand);
+
+        //提交事务（或者在获取sqlSession时自动提交事务）
+//        sqlSession.commit();
         //5. 释放资源
         sqlSession.close();
     }
