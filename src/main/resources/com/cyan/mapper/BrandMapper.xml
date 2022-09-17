@@ -97,7 +97,7 @@
         </where>
     </select>
 
-    <insert id="add">
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
         insert into tb_brand(brand_name, company_name, ordered, description, status)
         VALUES (#{brandName}, #{companyName}, #{ordered}, #{description}, #{status})
     </insert>

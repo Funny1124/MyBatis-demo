@@ -169,7 +169,7 @@ public class MyBatisTest {
         //4. 执行方法
         //接口方法参数是 实体类对象 方式调用的方法
         brandMapper.add(brand);
-
+        System.out.println(brand.getId());
         //提交事务（或者在获取sqlSession时自动提交事务）
 //        sqlSession.commit();
         //5. 释放资源
