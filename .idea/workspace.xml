@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="条件查询（模糊查询）" />
+    <list default="true" id="572c2a87-5af6-4c0d-a414-f282facb218a" name="Changes" comment="条件查询（模糊查询）">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/cyan/mapper/BrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +64,7 @@
       <recent name="com.cyan.Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectById">
+  <component name="RunManager" selected="JUnit.MyBatisTest.testSelectByCondition">
     <configuration name="MyBatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <module name="MyBatis-demo" />
@@ -122,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest.testSelectById" />
         <item itemvalue="JUnit.MyBatisTest.testSelectByCondition" />
+        <item itemvalue="JUnit.MyBatisTest.testSelectById" />
         <item itemvalue="JUnit.MyBatisTest.testSelectAll (1)" />
         <item itemvalue="JUnit.MyBatisTest.testSelectAll" />
         <item itemvalue="Application.MyBatisTest" />
@@ -147,7 +151,8 @@
       <workItem from="1662710761515" duration="1241000" />
       <workItem from="1662712454357" duration="40000" />
       <workItem from="1663342440626" duration="2234000" />
-      <workItem from="1663393869931" duration="3806000" />
+      <workItem from="1663393869931" duration="5058000" />
+      <workItem from="1663422140088" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="MyBatis入门">
       <created>1662287823645</created>
@@ -240,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663397451208</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="条件查询（模糊查询）">
+      <created>1663397966872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663397966872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
